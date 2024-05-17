@@ -4,10 +4,12 @@ import VideoGrid from './components/VideoGrid';
 import Footer from './components/Footer';
 import styles from './styles/Home.module.css';
 
-const Home: React.FC = () => {
+const Page: React.FC = () => {
   return (
     <div className={styles.container}>
-      <Header />
+      <header className={styles.header}>
+        <Header />
+      </header>
       <main className={styles.main}>
         <section className={styles.welcome}>
           <h1>Welcome to Reverb Films</h1>
@@ -15,9 +17,11 @@ const Home: React.FC = () => {
         </section>
         <VideoGrid />
       </main>
-      <Footer />
+      <footer className={styles.footer}>
+        <Footer />
+      </footer>
     </div>
   );
 };
 
-export default Home;
+export default Page; // This is still needed for Next.js to properly render the page

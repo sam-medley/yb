@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "reverb-films",
+			"problemMatcher": [],
+			"label": "npm: dev - reverb-films",
+			"detail": "next dev"
+		}
+	]
+}
