@@ -4,9 +4,9 @@
 		{
 			"type": "npm",
 			"script": "dev",
-			"path": "reverb-films",
+			"path": "yb-site",
 			"problemMatcher": [],
-			"label": "npm: dev - reverb-films",
+			"label": "npm: dev - yb-site",
 			"detail": "next dev"
 		}
 	]
