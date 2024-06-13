@@ -5,13 +5,7 @@ import styles from '../styles/Home.module.css';
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.videoContainer}>
-        {VIDEOS.map((video: string, index: number) => (
-          <div key={index} className={styles.videoColumn}>
-            <video src={`/videos/${video}`} loop muted autoPlay />
-          </div>
-        ))}
-      </div>
+      <h1>yb-crew</h1>
     </header>
   );
 };

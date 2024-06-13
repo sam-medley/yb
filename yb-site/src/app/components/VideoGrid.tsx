@@ -4,12 +4,15 @@ import VideoItem from './VideoItem';
 import styles from '../styles/Home.module.css';
 
 const VideoGrid: React.FC = () => {
+
   return (
-    <section className={styles.videoGrid}>
-      {VIDEOS.slice(3).map((video: string, index: number) => (
-        <VideoItem key={index} videoSrc={`/videos/${video}`} />
-      ))}
-    </section>
+      <div className={styles.videoContainer}>
+        {VIDEOS.map((video: string, index: number) => (
+          <div key={index} className={styles.videoColumn}>
+            <VideoItem videoSrc={`/videos/${video}`} />
+          </div>
+        ))}
+      </div>
   );
 };
 
