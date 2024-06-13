@@ -1,8 +1,7 @@
 /* Home.module.css */
 .container {
     margin: 0 auto;
-    max-width: 960px;
-    padding: 1rem;
+    max-width: max-content;
 }
 
 .header {
@@ -24,9 +23,24 @@
     text-align: center;
 }
 
-.videoGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    /* Center the content */
+    flex-wrap: wrap;
+    /* Allow wrapping */
+}
+
+.videoColumn {
+    flex: 1;
+    /* Each column will take up equal space */
+    max-width: fit-content;
+    /* Adjust for padding/margins */
+    box-sizing: border-box;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    /* Maintains aspect ratio */
 }

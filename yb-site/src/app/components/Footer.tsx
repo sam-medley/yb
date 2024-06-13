@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
-      <p>&copy; 2023 Reverb Films. All rights reserved.</p>
+      <p>&copy; 2023 yb. All rights reserved.</p>
     </footer>
   );
 };

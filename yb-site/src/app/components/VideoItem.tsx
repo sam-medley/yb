@@ -36,6 +36,7 @@ const VideoItem: React.FC<VideoItemProps> = ({ videoSrc }) => {
         muted
         onMouseOver={playVideo}
         onMouseOut={stopVideo}
+        className={styles.video}
       />
     </div>
   );
