@@ -9,6 +9,7 @@ const Page: React.FC = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <VideoGrid />
+        <TrustedBy />
       </main>
       <footer className={styles.footer}>
         <Footer />
