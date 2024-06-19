@@ -15,7 +15,9 @@ const TrustedBy: React.FC = () => {
             <div className={styles.carouselContainer}>
                 <div className={styles.customerIcons}>
                     {fullIconsArray.map((icon, index) => (
-                        <img key={index} src={icon} alt="Customer icon" className={styles.customerIcon} />
+                        <div key={index} className={styles.iconWrapper}>
+                            <img src={icon} alt="Customer icon" className={styles.customerIcon} />
+                        </div>
                     ))}
                 </div>
             </div>
