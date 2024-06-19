@@ -3,6 +3,7 @@ import Header from './components/Header';
 import VideoGrid from './components/VideoGrid';
 import Footer from './components/Footer';
 import styles from './styles/Home.module.css';
+import TrustedBy from './components/TrustedBy';
 
 const Page: React.FC = () => {
   return (
