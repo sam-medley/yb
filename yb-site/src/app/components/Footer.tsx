@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
       </div>
       <div className={styles.diagonalText}>
         <p>Unlock digital rarity.<br />Own NFT<br />masterpieces.</p>
-        <p className={styles.bodyText}>This is a smaller body paragraph.</p>
+        <p className={styles.bodyText}>&copy; 2023 yb. All rights reserved.</p>
       </div>
     </footer>
   );
