@@ -93,7 +93,7 @@
 /* Home.module.css */
 
 .footer {
-    background-color: #ddb43b;
+    background-color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 34px;
     font-weight: 1000;
@@ -112,7 +112,7 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
     transform: rotate(180deg);
-    color: #721a03;
+    color: #b60000;
     margin-right: 10px; /* Add some space between the two texts */
     padding-right: 5%;
 }
@@ -130,10 +130,10 @@
 
 .diagonalText {
     position: absolute;
-    bottom: 22%; /*Adjust this value as needed*/
+    bottom: 29%; /*Adjust this value as needed*/
     right: 2%; /*Adjust this value as needed */
     transform: rotate(-45deg);
-    color: #000000;
+    color: #ffffff;
     white-space: pre-wrap; /*Preserve whitespace and line breaks*/
     line-height: 1.0; /*Adjust the line height as needed*/
     font-size: 30px;

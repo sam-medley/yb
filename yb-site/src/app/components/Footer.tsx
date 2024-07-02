@@ -7,10 +7,10 @@ const Footer: React.FC = () => {
     <footer className={styles.footer}>
       <div className={styles.TextContainer}>
         <div className={styles.verticalText}>
-          <p>INSERT YOUR TEXT HERE</p>
+          <p>YB CREW YB CREW</p>
         </div>
         <div className={styles.verticalText2}>
-          <p>INSERT YOUR TEXT HERE</p>
+          <p>YB CREW YB CREW</p>
         </div>
         <div className={styles.imageContainer}>
           <img src="/path/to/your/image.jpg" alt="Insert Image" />
